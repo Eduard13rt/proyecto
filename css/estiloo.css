@@ -1,0 +1,33 @@
+
+/*
+Estas lineas son para el estilo del menu superior
+*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2d7cfc;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    /*Color de letra*/
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* color cuando dejas mouse sobrepuesto*/
+li a:hover:not(.active) {
+    background-color: #66ff72;
+}
+
+/*color de la pestaña activa*/
+.active {
+    background-color: #44cdff;
+}
